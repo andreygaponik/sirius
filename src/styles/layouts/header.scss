@@ -1,15 +1,38 @@
+// .header {
+//   margin-top: 10%;
+//   text-align: center;
+//   &__title {
+//     color: #c0b1a9;
+//     font-size: 5rem;
+//     text-transform: uppercase;
+//     b {
+//       font-weight: 100;
+//       &:first-child{
+//         color: #82675b;
+//       }
+//     }
+//   }
+// }
+
 .header {
-  margin-top: 10%;
-  text-align: center;
-  &__title {
-    color: #c0b1a9;
-    font-size: 5rem;
-    text-transform: uppercase;
-    b {
-      font-weight: 100;
-      &:first-child{
-        color: #82675b;
-      }
+  &__top {
+    background: #404040;
+    a {
+      border-bottom: 1px dotted #fff;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        border: none;
+      } 
     }
+    a, p {
+      font-size: 14px;
+      color: #fff;
+      line-height: 50px;
+    }
+  }
+  a {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 }
