@@ -1,0 +1,32 @@
+{
+  "name": "skylet",
+  "description": "Web-site",
+  "version": "0.0.1",
+  "homepage": "http://metamorph.ml/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanMetamorph/Skylet.git"
+  },
+  "author": "Mikalaj Mitsin",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/PanMetamorph/Skylet/issues"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
